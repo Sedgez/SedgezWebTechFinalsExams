@@ -267,6 +267,8 @@ body {
    }
 
    .blogTitle a {
+    position: relative;
+    top: 55px;
     text-decoration: none;
     font-size: 25px;
     color: black;
