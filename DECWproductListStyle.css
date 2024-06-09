@@ -233,7 +233,10 @@ body {
      position: relative;
      top: 140px;
      left: 235px;
+     row-gap: 40px;
    }
+
+
    .prodImg {
     display: flex;
     justify-content: flex-start;
