@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Domingo Sedgewick Howard</title>
 
-    <style>
+<head>
+  <title>Domingo Sedgewick Howard Portfolio</title>
+  <link rel="stylesheet" href="myPortfolioStyle.css">
+</head>
 
-         body {background-color: mintcream;} 
+<body>
 
-         h1 {font-family: Times New Roman; font-size: 35px;}
-
-         h2 {font-family: Times New Roman; font-size: 30px;}
-
-         p {font-family: Century;}
-
-         article {float: right; padding: 10px; text-align: right; margin-right: 300px; margin-top: 100px;}
-
-         footer {background-color: #AFDEDC; padding: 3px; text-align: center; color: white; margin: -10px;}
-
-    </style>
-  </head>
-
- <body>
-    
-   <div style="background-color: #C4D7F2; padding:3px; margin: -10px;">
-   <p style="font-size: 25px; text-indent: 50px;"><b>Sedgewick Howard Domingo</b></p>
-   <p style="font-size: 15px; text-indent: 50px; margin-top: -25px;">Web Developer </p>
-   <p style="font-size: 15px; text-align: right; margin-right: 25px; word-spacing: 20px;">
-    <span style="font-size: 15px; text-align: right; margin-right: 100px; word-spacing: 30px;">HOME RESUME PROJECTS AWARDS CONTACT</span></p>
+  <div class="navBar">
+    <div class="wName">
+      <h1 style="font-size: 25px; text-indent: 50px; color: white;"><b>Sedgewick Howard Domingo</b></h1>
+    </div>
+    <div class="navBtn">
+      <a href="myPortfolio.html">Home</a>
+      <a href="#prjts">Projects</a>
+      <a href="https://drive.google.com/drive/folders/1YsMAlk0WC4v77a65B1wdzaRiexmBir6o?usp=sharing">Activities</a>
+      <a href="#UC">PNC</a>
+      <a href="">About me</a>
+    </div>
+  </div>
+  <div class="intro">
+   <div class="meinImg">
+    <img src="mypic.png" alt="My Picture" style="background-color: dimgray; border-radius: 25px; width:300px;height:300px; margin-top: 100px; margin-left: 100px; margin-bottom: 100px; margin-right: 100px;">
    </div>
-
-   <img src="mypic.png" alt="My Picture" 
-         style="background-color: dimgray; border-radius: 25px; width:300px;height:300px; margin-top: 100px; margin-left: 100px; margin-bottom: 100px; margin-right: 100px;">
-   
-   <article>
+   <div class="introLetter">
     <h1>Hello and Welcome!</h1>
-    <p>Aspiring programmer/web developer studying at University of cabuyao 1st year</p>
-   </article>
- </body>
+    <p>My Name is <b>Sedgewick Howard Domingo</b><br>
+    Aspiring programmer/web developer studying at University of cabuyao 1st year</p>
+   </div>
+  </div>
+
+  <div class="projects">
+    <h2 id="prjts" style="text-align: center;">My Projects</h2><br><br>
+    <div class="prjtList">
+      <div class="ecomWeb">
+        <a href="https://sedgez.github.io/SedgezWebTechFinalsExams/"><img src="TravelTrove.png" alt="Img" style="height: 200px; width: 350; border-radius: 10px; border: black 1px; border-style: solid;"></a><br>
+        <a href="https://sedgez.github.io/SedgezWebTechFinalsExams/">Ecommerce Website</a>
+      </div>
+      <div class="ecomWeb">
+        <a href="Midterm LabAct3 by Sedgewick Howard Domingo 1CS-A.html"><img src="schedule.png" alt="Img" style="height: 200px; width: 350; border-radius: 10px; border: black 1px; border-style: solid;"></a><br>
+        <a href="Midterm LabAct3 by Sedgewick Howard Domingo 1CS-A.html">My schedule</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="ucVisionMission">
+    <h1 id="UC" style="color:#47682C; text-align: center;">Pamantasan ng Cabuyao</h1>
+    <div class="visionMission">
+      <div class="vision">
+        <h2>Vision</h2>
+        <p>A premier institution of higher learning in Region IV,<br>
+          developing globally-competitive and value-laden professionals <br>
+          and leaders instrumental to community development and nation-building</p>
+      </div>
+      <div class="mission">
+        <h2>Mission</h2>
+        <p>As an institution of higher learning, UC (PnC) is committed to equip individuals<br>
+           with knowledge, skills, and values that will enable them to achieve their professional <br>
+           goals & provide leadership and service for national development.</p>
+      </div>
+    </div>
+  </div>
+</body>
 </html>

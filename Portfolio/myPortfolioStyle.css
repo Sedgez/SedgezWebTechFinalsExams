@@ -1,0 +1,80 @@
+body {
+    background-color: #F4F4F8; font-family: Arial;
+  }
+  h1 {
+    color: black;
+  }
+  p {
+    color: black;
+  }
+  .navBar {
+    overflow: hidden;
+    background-color: #284B63;
+    margin: -10px;
+    height: 60px;
+  }
+  
+  .navBar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .navBtn {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    top: -5vh;
+    right: 35px;
+    column-gap: 50px;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    left: 15vh;
+    color: black
+  }
+
+  .introLetter {
+    position: relative;
+    left: 10vh;
+  }
+
+  .projects {
+    position: relative;
+    top: 300px;
+  }
+
+  .prjtList {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+  }
+
+  .prjtList a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .ucVisionMission{
+    position: relative;
+    top: 50vh;
+    left: 80px;
+    border: black 2px;
+    border-style: solid;
+    height: 40vh;
+    width: 180vh;
+  }
+  
+  .visionMission {
+    display: flex;
+    justify-content: center;
+    column-gap: 150px;
+    text-align: center;
+  }
