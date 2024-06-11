@@ -149,6 +149,10 @@ body {
     display: block;
   }
 
+  .destination input {
+    width: 70%;
+    padding: 10px;
+  }
 
   .srchMenu {
     position: relative;

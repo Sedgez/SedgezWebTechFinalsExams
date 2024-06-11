@@ -161,6 +161,10 @@ body {
     margin-bottom: 80px;
   }
 
+  .destination input {
+    width: 70%;
+    padding: 10px;
+  }
   .srchMenu {
     position: relative;
     display: flex;
@@ -268,7 +272,7 @@ body {
 
    .blogTitle a {
     position: relative;
-    top: 55px;
+    top: 10px;
     text-decoration: none;
     font-size: 25px;
     color: black;

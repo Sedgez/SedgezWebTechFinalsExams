@@ -168,6 +168,11 @@ body {
     top: -50px;
   }
 
+  .fields input {
+    height: 25px;
+    width: 150%;
+  }
+
   .fields {
     display: flex;
     flex-direction: column;
